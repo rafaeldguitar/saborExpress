@@ -10,7 +10,7 @@ def voltar_ao_menu_principal():
 
 def exibir_subtitulos(texto):
     os.system("cls")
-    linha = "*" * (len(texto)) # pega o numero de caracteres de texto
+    linha = "*" * (len(texto)) #pega o numero de caracteres de texto
     print(linha)
     print(texto)
     print(linha)
@@ -74,9 +74,9 @@ def alternar_estado_restaurante():
 def esclher_opcao():
     try: #tente...
         opcao_escolhida = int(input("\nEscolha uma opção: ")) #variavel em python separar com _ | int para o format poder ler
-        #print("Você escolheu a opção ", opcao_escolhida)
-        #print("Você escolheu a opção {}".format(opcao_escolhida))
-        #print(f"Você escolheu a opção {opcao_escolhida}") #melhor escolha
+                                                              #print("Você escolheu a opção ", opcao_escolhida)
+                                                              #print("Você escolheu a opção {}".format(opcao_escolhida))
+                                                              #print(f"Você escolheu a opção {opcao_escolhida}") #melhor escolha
         if opcao_escolhida == 1:
             cadastrar_novo_restaurante()
         elif opcao_escolhida == 2:
